@@ -24,36 +24,6 @@ All experiments are logged under a **single MLflow experiment** called:
 
 The MLflow UI allows easy comparison of models and their performance.
 
-------------------------------------------------------------------------
-
-# Project Structure
-
-    ML-Flow-Lab
-    │
-    ├── logistic_regression_exp.py
-    ├── random_forest_exp.py
-    ├── gradient_boosting_exp.py
-    │
-    ├── run_all_experiments.py
-    │
-    └── README.md
-
-------------------------------------------------------------------------
-
-# Models Used
-
-Three different classification models are trained on the same dataset:
-
-  Script                       Model
-  ---------------------------- ---------------------
-  logistic_regression_exp.py   Logistic Regression
-  random_forest_exp.py         Random Forest
-  gradient_boosting_exp.py     Gradient Boosting
-
-All scripts use the **Iris dataset from scikit-learn**.
-
-------------------------------------------------------------------------
-
 # MLflow Tracking
 
 Each experiment logs the following information:
@@ -83,19 +53,6 @@ MLflow stores model artifacts such as:
 
 ------------------------------------------------------------------------
 
-# Model Flavors
-
-The logged models automatically register MLflow flavors.
-
-Example flavors recorded in the **MLmodel** file:
-
-    python_function
-    sklearn
-
-These flavors allow the model to be loaded in multiple ways.
-
-------------------------------------------------------------------------
-
 # Running the Project
 
 ## 1 Install dependencies
@@ -112,15 +69,9 @@ Open the interface in your browser:
 
 ## 3 Run experiments
 
-Run experiments individually:
+Run experiment:
 
-    python logistic_regression_exp.py
-    python random_forest_exp.py
-    python gradient_boosting_exp.py
-
-Or run all experiments automatically:
-
-    python run_all_experiments.py
+    main.py
 
 ------------------------------------------------------------------------
 
