@@ -26,6 +26,12 @@ The MLflow UI allows easy comparison of models and their performance.
 
 # MLflow Tracking
 
+### Models
+
+Logistic Regression
+Random Forest
+Gradient Boosting
+
 Each experiment logs the following information:
 
 ### Parameters
