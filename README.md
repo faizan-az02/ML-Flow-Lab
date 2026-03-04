@@ -28,9 +28,9 @@ The MLflow UI allows easy comparison of models and their performance.
 
 ### Models
 
-Logistic Regression
-Random Forest
-Gradient Boosting
+Logistic Regression<br>
+Random Forest<br>
+Gradient Boosting<br>
 
 Each experiment logs the following information:
 
