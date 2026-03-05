@@ -21,7 +21,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 with mlflow.start_run():
 
-    n_estimators = 200
+    n_estimators = 300
 
     model = RandomForestClassifier(n_estimators=n_estimators, random_state=42)
     model.fit(X_train, y_train)
