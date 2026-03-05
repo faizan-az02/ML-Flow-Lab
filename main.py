@@ -4,9 +4,8 @@ import sys
 
 
 scripts = [
-    "lr.py",
-    "rf.py",
-    "gb.py"
+    "lr_bc.py",
+    "rf_bc.py"
 ]
 
 
